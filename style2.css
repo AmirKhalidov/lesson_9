@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courses {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 195px;
+}
+
+.courses__subtitle {
+    color: rgb(35, 166, 240);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.courses__title {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.courses__desc {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.products {
+    display: flex;
+    gap: 10px;
+}
+
+.product {
+    position: relative;
+}
+
+.product__sale {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 2px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(231, 64, 64);
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product__icons {
+    display: flex;
+    gap: 10px;
+
+    position: absolute;
+    top: 236px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product__icons-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__bottom-wrapper {
+    padding: 25px 25px 35px 25px;
+}
+
+.product__depart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+.product__department {
+    color: rgb(35, 166, 240);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.product__rating {
+    padding: 5px;
+    width: 55px;
+    border-radius: 20px;
+    background: rgb(37, 43, 66);
+
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.product__title {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.product__desc {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.product__sales-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product__quantity {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.product__prices {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.product__price--grey {
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.product__price--green {
+    color: rgb(64, 187, 21);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.product__features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.product__feature {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product__feature-icon {
+}
+
+.product__feature-title {
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.product__learn-btn {
+    padding: 10px 20px;
+    border: 1px solid rgb(35, 166, 240);
+    border-radius: 37px;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(35, 166, 240);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

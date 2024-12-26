@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 197px;
+    background: url(./img/background.png) no-repeat;
+    background-size: cover;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 153px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    gap: 21px;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-right: 83px;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.nav-btns {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-btns__login {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-btns__become-btn {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background: rgb(35, 166, 240);
+}
+
+/* MAIN */
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.hero-section {
+    height: 871px;
+}
+
+.hero {
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__subtitle {
+    color: rgb(35, 166, 240);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero__title {
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero__desc {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero__btn {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgb(35, 166, 240);
+    padding: 16px 40px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+}
+
+.feature {
+    width: 328px;
+    padding: 35px 40px;
+    background-color: #fff;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature--blue {
+    background: rgb(35, 166, 240);
+}
+
+.feature__icon-wrapper {
+    width: 70px;
+    height: 76px;
+    border-radius: 10px;
+    background: rgb(35, 166, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__icon-wrapper--blue {
+    background: #fff;
+}
+
+.feature__icon {
+    width: 26px;
+    height: 26px;
+}
+
+.feature__title {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+
+.feature__title--blue {
+    color: #fff;
+}
+
+.feature__divider {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(231, 64, 64);
+}
+
+.feature__divider--blue {
+    background-color: #fff;
+}
+
+.feature__desc {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.feature__desc--blue {
+    color: #fff;
+}
